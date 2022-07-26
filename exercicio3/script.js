@@ -17,7 +17,7 @@ const novaFrase2 = novaFrase.replace("azul", "laranja")
 console.log(novaFrase2);
 
 // c) Verifique se a nova string inclui **verde**, e se inclui **laranja**.
-//Sim. Inclui. 
+console.log("Inclui verde?", novaFrase2.includes("verde"), "Inclui laranja?", novaFrase2.includes("laranja"))
 
 // **EXTRA:** tente fazer o “mas não deixe o gato sair” ficar em maiúsculo, assim como o “BOAS VINDAS”
 
